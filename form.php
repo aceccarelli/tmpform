@@ -4,6 +4,5 @@ header("Access-Control-Allow-Methods:GET, POST, OPTIONS");
 header("Access-Control-Allow-Origin:https://sisloc1464960274.zendesk.com");
 header("Access-Control-Max-Age:3600");
 header("Content-Type:application/json;charset=utf-8");
-$ar["ok"] = true;
-json_encode($ar);
+json_encode("{ok: true}");
 ?>
